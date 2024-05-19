@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 class CategoriesScreen extends StatelessWidget {
   final int categoryIndex;
 
-  const CategoriesScreen({Key? key, required this.categoryIndex}) : super(key: key);
+  const CategoriesScreen({super.key, required this.categoryIndex});
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,7 @@ class CategoriesScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text('Континент'),
+        title: const Text('Континент'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -21,13 +21,13 @@ class CategoriesScreen extends StatelessWidget {
           children: [
             Text(
               categoryInfo.name,
-              style: TextStyle(
+              style: const TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(height: 16),
-            Text(
+            const SizedBox(height: 16),
+            const Text(
               'Описание:',
               style: TextStyle(
                 fontSize: 18,
@@ -36,10 +36,10 @@ class CategoriesScreen extends StatelessWidget {
             ),
             Text(
               categoryInfo.description,
-              style: TextStyle(fontSize: 16),
+              style: const TextStyle(fontSize: 16),
             ),
-            SizedBox(height: 16),
-            Text(
+            const SizedBox(height: 16),
+            const Text(
               'Культурные особенности:',
               style: TextStyle(
                 fontSize: 18,
@@ -48,7 +48,7 @@ class CategoriesScreen extends StatelessWidget {
             ),
             Text(
               categoryInfo.culturalFeatures,
-              style: TextStyle(fontSize: 16),
+              style: const TextStyle(fontSize: 16),
             ),
           ],
         ),

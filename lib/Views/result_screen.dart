@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-
 import '/Model/questions_model.dart';
-import '/Views/quiz_screen.dart';
-import '../widgets/next_button.dart';
 import 'mainMenu.dart';
 
 class ResultScreen extends StatelessWidget {

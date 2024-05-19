@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-
 class CountryInfo {
   final String name;
   final String capital;

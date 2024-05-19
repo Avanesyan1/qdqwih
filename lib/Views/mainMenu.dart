@@ -1,7 +1,5 @@
 import 'package:diplom_main/Model/countriesInfo.dart';
 import 'package:diplom_main/Views/quiz_screen.dart';
-import 'package:diplom_main/Views/userProfile.dart';
-import 'package:diplom_main/auth/ui/user_screen.dart';
 import 'package:diplom_main/widgets/country_details_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';

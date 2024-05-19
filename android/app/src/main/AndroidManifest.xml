@@ -1,4 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <meta-data android:name="com.yandex.mapkit.api_key" android:value="09f9c70b-e3f1-4257-827c-5a5853e873dc" />
     <application
         android:label="diplom_main"
         android:name="${applicationName}"

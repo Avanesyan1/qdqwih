@@ -46,6 +46,7 @@ dependencies:
   flutter_bloc: ^8.1.5
   path_provider: ^2.1.1
   firebase_app_check: ^0.2.2+5
+  yandex_mapkit: ^4.0.2
 
 dev_dependencies:
   flutter_test:
@@ -75,6 +76,8 @@ flutter:
     - lib/assets/
     - lib/assets/countriesAssets/
     - lib/assets/flags/
+    - lib/assets/map_point.png
+    
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

@@ -1,4 +1,3 @@
-
 import 'package:diplom_main/Views/mainMenu.dart';
 import 'package:diplom_main/auth/data/auth_repository_impl.dart';
 import 'package:diplom_main/auth/data/firebase_auth_api.dart';
@@ -8,7 +7,6 @@ import 'package:diplom_main/auth/ui/register_screen.dart';
 import 'package:diplom_main/auth/ui/user_screen.dart';
 import 'package:firebase_app_check/firebase_app_check.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

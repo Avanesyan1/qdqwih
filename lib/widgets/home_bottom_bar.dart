@@ -29,7 +29,7 @@ class _HomeBottomBarState extends State<HomeBottomBar> {
 
   void _navigateToProfilePage(BuildContext context) {
     Navigator.of(context).pushReplacement(
-      MaterialPageRoute(builder: (context) => ProfileScreen()),
+      MaterialPageRoute(builder: (context) => const ProfileScreen()),
     );
   }
 
@@ -38,7 +38,7 @@ class _HomeBottomBarState extends State<HomeBottomBar> {
     return CurvedNavigationBar(
       color: Colors.deepPurpleAccent,
       backgroundColor: Colors.deepPurple,
-      items: [
+      items: const [
         Icon(Icons.home, size: 30),
         Icon(Icons.person_outline, size: 30),
         Icon(Icons.book, size: 30),

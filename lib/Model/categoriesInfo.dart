@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-
 class CategoryInfo {
   final String name;
   final String description;
